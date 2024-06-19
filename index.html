@@ -25,7 +25,7 @@
         <!-- logo -->
         <div class="flex justify-center lg:justify-normal">
           <a href="#">
-            <img src="./assets/img/header/logo_miguel.svg" alt="logo" />
+            <img src="./assets/img/header/logo.svg" alt="logo" />
           </a>
         </div>
         <!-- nav -->
@@ -49,6 +49,18 @@
           >
             book now
           </button>
+          <!-- mobile nav -->
+          <nav
+            class="mnav bg-pink-200 fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20"
+          >
+            <div
+              class="mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all"
+            >
+              <i
+                class="mnav__close-btn-icon ri-arrow-right-s-line text-2xl text-white"
+              ></i>
+            </div>
+          </nav>
         </div>
       </div>
     </header>

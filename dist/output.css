@@ -584,6 +584,46 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.-right-full {
+  right: -100%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.left-\[300px\] {
+  left: 300px;
+}
+
+.-left-\[300px\] {
+  left: -300px;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -593,8 +633,28 @@ video {
   display: flex;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-\[240px\] {
   width: 240px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -609,23 +669,31 @@ video {
   justify-content: center;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
 }
 
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
+.rounded-br-lg {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-tr-lg {
+  border-top-right-radius: 0.5rem;
 }
 
 .bg-pink-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 42 43 / var(--tw-bg-opacity));
 }
 
 .py-8 {
@@ -641,6 +709,27 @@ video {
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(28 188 207 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 body {
@@ -839,6 +928,10 @@ h6 {
     margin-right: 0px;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -855,13 +948,13 @@ h6 {
     justify-content: space-between;
   }
 
-  .lg\:gap-y-0 {
-    row-gap: 0px;
-  }
-
   .lg\:gap-x-10 {
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
+  }
+
+  .lg\:gap-y-0 {
+    row-gap: 0px;
   }
 
   .lg\:pb-14 {
