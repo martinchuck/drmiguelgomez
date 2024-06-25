@@ -596,8 +596,8 @@ video {
   right: -100%;
 }
 
-.left-0 {
-  left: 0px;
+.left-\[300px\] {
+  left: 300px;
 }
 
 .top-0 {
@@ -608,20 +608,12 @@ video {
   top: 2rem;
 }
 
-.left-\[300px\] {
-  left: 300px;
-}
-
 .-left-\[300px\] {
   left: -300px;
 }
 
 .z-20 {
   z-index: 20;
-}
-
-.m-8 {
-  margin: 2rem;
 }
 
 .mx-auto {
@@ -641,16 +633,16 @@ video {
   height: 100vh;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[240px\] {
   width: 240px;
 }
 
 .w-\[300px\] {
   width: 300px;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .cursor-pointer {
