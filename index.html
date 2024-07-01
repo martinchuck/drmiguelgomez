@@ -183,15 +183,70 @@
               >
                 <i class="ri-search-line text-2xl text-accent"></i>
               </label>
-              <input type="text" id="search-input" />
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search..."
+                class="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150"
+              />
             </form>
           </nav>
         </div>
       </div>
     </header>
 
+    <!-- hero -->
+    <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+      <div class="container mx-auto">
+        <!-- text & img -->
+        <div
+          class="flex flex-col xl:flex-row items-center justify-between h-full"
+        >
+          <!-- text -->
+          <div class="hero__text xl:w-[48%] text-center xl:text-left">
+            <!-- badge -->
+            <div
+              class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0"
+            >
+              <!-- badge icon -->
+              <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+              <div
+                class="uppercase text-base font-medium text-[#9AB4B7] tracking-[2.24px]"
+              >
+                Live your life
+              </div>
+            </div>
+            <!-- title -->
+            <h1 class="h1 mb-6">We care about your health</h1>
+            <!-- desc -->
+            <p class="mb-[42px] md:max-w-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              voluptates cumque, vero porro, totam dolorum error dignissimos
+              esse natus consequatur, qui libero. Alias doloremque eius cumque
+              nobis tenetur nihil officiis!
+            </p>
+            <!-- btn -->
+            <button class="btn btn-lg btn-accent mx-auto xl:mx-0">
+              Contact us
+            </button>
+          </div>
+          <!-- image -->
+          <div class="hero__img hidden xl:flex max-w-[814px] self-end">
+            <img src="assets/img/hero//img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- temp div -->
+
+    <!-- SCRIPTS -->
+    <!-- swiper -->
     <script src="js/swiper-bundle.min.js"></script>
+    <!-- scroll reveal -->
     <script src="/js/main.js"></script>
+    <!-- main -->
     <script src="/js/scrollreveal.min.js"></script>
   </body>
 </html>
